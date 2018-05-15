@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
 </head>
-<body>
+<body id="top">
     <header class="fruit_mer">
         <div class="container-fluid text-center">
             <h1>panier</h1>
@@ -23,19 +23,27 @@
     <main>
         <div class="container checkout_container">
             <div class="row">
-                <div class="col-md-4 offset-md-4">
+                <div class="col-md-12">
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <div>
                                 <h6>Pate bolognaise</h6>
                                 <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
                             </div>
-                            <span class="text-muted">10€</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <div>
-                                <h6>Pate bolognaise</h6>
-                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                             <span class="text-muted">10€</span>
                         </li>
@@ -44,12 +52,20 @@
                                 <h6>Pate bolognaise</h6>
                                 <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
                             </div>
-                            <span class="text-muted">10€</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <div>
-                                <h6>Pate bolognaise</h6>
-                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                             <span class="text-muted">10€</span>
                         </li>
@@ -58,12 +74,20 @@
                                 <h6>Pate bolognaise</h6>
                                 <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
                             </div>
-                            <span class="text-muted">10€</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <div>
-                                <h6>Pate bolognaise</h6>
-                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                             <span class="text-muted">10€</span>
                         </li>
@@ -72,12 +96,20 @@
                                 <h6>Pate bolognaise</h6>
                                 <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
                             </div>
-                            <span class="text-muted">10€</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <div>
-                                <h6>Pate bolognaise</h6>
-                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                             <span class="text-muted">10€</span>
                         </li>
@@ -85,6 +117,109 @@
                             <div>
                                 <h6>Pate bolognaise</h6>
                                 <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            </div>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="text-muted">10€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6>Pate bolognaise</h6>
+                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            </div>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="text-muted">10€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6>Pate bolognaise</h6>
+                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            </div>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="text-muted">10€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6>Pate bolognaise</h6>
+                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            </div>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="text-muted">10€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6>Pate bolognaise</h6>
+                                <small class="text-muted">sauce bolognaise cuisiner pas un grand chez italien.</small>
+                            </div>
+                            <div class="d-flex">
+                                <input class="form-control ml-5 checkout_input" value="1" type="number" name="quantite" id="quantity">
+                                <div class="d-flex flex-column ml-5">
+                                    <div class="button_add">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="button_del pt-1">
+                                        <button class="quantity_button">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                             <span class="text-muted">10€</span>
                         </li>
@@ -102,33 +237,107 @@
                             </div>
                             <span class="text-muted">54.00€</span>
                         </li>
-                        <div class="d-flex justify-content-between pt-3">
-                            <a href="#"><button class="btn btn-success">Proceder au paiement</button></a>
-                            <a href="../index.html"><button class="btn btn-danger">Annuler / Retour au shopping</button></a>
+                        <div>
+                            <div class="form-group row mt-4">
+                                <label for="code_reduction" class="col-sm-4 pt-2">Code de reduction : </label>
+                                <div class="col-sm-8 d-flex">
+                                    <input type="text" class="form-control" placeholder="code reduction">
+                                    <button type="submit" class="btn btn-primary">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="pt-3">
+                                <a href="#" class="mb-3"><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Proceder au paiement</button></a>
+                            </div>
+                            <div class="pt-3">
+                                <a href="../index.html"><button class="btn btn-danger"><i class="fas fa-times"></i> Annuler / Retour au shopping</button></a>
+                            </div>
+                            <div class="pt-3"><button class="btn btn-primary" data-toggle="modal" data-target="#share_link"><i class="fas fa-share-alt"></i> Partager le lien du panier</button></div>
                         </div>
                     </ul>
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
+        <!-- modal partage lien -->
+        <div class="modal fade" id="share_link" tabindex="-1" role="dialog" aria-labelledby="share_link" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="share_link_title">Partage de la commande / choix des contacts</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="../img/contact.png" alt="contact" class="img-fluid contact_img pl-1">
+                                <h6 class="pl-3">Pierre</h6>
+                            </div>
+                            <div class="d-flex">
+                                <h6>Ajouter le contact</h6>
+                               <input type="checkbox" name="ajout" id="add_contact" class="form-check-input"> 
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="../img/contact.png" alt="contact" class="img-fluid contact_img pl-1">
+                                <h6 class="pl-3">Pierre</h6>
+                            </div>
+                            <div class="d-flex">
+                                <h6>Ajouter le contact</h6>
+                               <input type="checkbox" name="ajout" id="add_contact" class="form-check-input"> 
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="../img/contact.png" alt="contact" class="img-fluid contact_img pl-1">
+                                <h6 class="pl-3">Pierre</h6>
+                            </div>
+                            <div class="d-flex">
+                                <h6>Ajouter le contact</h6>
+                               <input type="checkbox" name="ajout" id="add_contact" class="form-check-input"> 
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="../img/contact.png" alt="contact" class="img-fluid contact_img pl-1">
+                                <h6 class="pl-3">Pierre</h6>
+                            </div>
+                            <div class="d-flex">
+                                <h6>Ajouter le contact</h6>
+                               <input type="checkbox" name="ajout" id="add_contact" class="form-check-input"> 
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="../img/contact.png" alt="contact" class="img-fluid contact_img pl-1">
+                                <h6 class="pl-3">Pierre</h6>
+                            </div>
+                            <div class="d-flex">
+                                <h6>Ajouter le contact</h6>
+                               <input type="checkbox" name="ajout" id="add_contact" class="form-check-input"> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Envoyer au contact</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal partgae lien -->
 
         <!-- button fixed bottom -->
-        <div class="container-fluid fixed-bottom backTo_top">
-            <a href="#">
-                <button class="btn btn-primary hidden" id="back_top">
-                    <i class="fas fa-chevron-up fa-2x"></i>
-                </button>
-            </a>
-        </div>
         <div class="container fixed-bottom">
-            <div class="col-md-4 d-flex justify-content-center">
-                <button id="menu" class="btn btn-primary menu_button hidden" data-toggle="modal" data-target="#modal_menu">Menu</button>
+            <div class="col-md-12 d-flex justify-content-between">
+                <a href="../index.html"><button id="home" class="btn btn-primary hidden">Accueil</button></a>
+                <button id="menu"class="btn btn-primary menu_button hidden" data-toggle="modal" data-target="#modal_menu">Menu</button>
+                <a href="#top"><button class="btn btn-primary hidden" id="back_top"><i class="fas fa-chevron-up fa-2x"></i></button></a>
             </div>
         </div>
         <!-- button fixed bottom -->
@@ -145,9 +354,6 @@
                     </div>
                     <div class="modal-body d-flex flex-column ">
                         <!-- button menu -->
-                        <a href="../index.html">
-                            <button class="btn btn-primary button_menu" type="button">Accueil</button>
-                        </a>
                         <button class="btn btn-primary mt-2 button_menu" type="button" data-toggle="collapse" data-target="#collapse_fruit_mer" aria-expanded="false"
                             aria-controls="collapseExample">
                             Fruit de mer
@@ -155,19 +361,19 @@
                         <div class="collapse" id="collapse_fruit_mer">
                             <div class="card card-body">
                                 <div class="list-group">
-                                    <a href="fruit_mer.html" class="list-group-item list-group-item-action">Langouste
+                                    <a href="fruit_mer/langouste.html" class="list-group-item list-group-item-action">Langouste
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fruit_mer.html" class="list-group-item list-group-item-action">Crevette
+                                    <a href="fruit_mer/crevette.html" class="list-group-item list-group-item-action">Crevette
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fruit_mer.html" class="list-group-item list-group-item-action">Saumon
+                                    <a href="fruit_mer/saumon.html" class="list-group-item list-group-item-action">Saumon
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fruit_mer.html" class="list-group-item list-group-item-action">Moule
+                                    <a href="fruit_mer/moule.html" class="list-group-item list-group-item-action">Moule
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fruit_mer.html" class="list-group-item list-group-item-action">Coquille Saint Jacques
+                                    <a href="fruit_mer/coquille.html" class="list-group-item list-group-item-action">Coquille Saint Jacques
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
@@ -180,19 +386,19 @@
                         <div class="collapse" id="collapse_fast_food">
                             <div class="card card-body">
                                 <div class="list-group">
-                                    <a href="fast_food.html" class="list-group-item list-group-item-action">Big Burger
+                                    <a href="fast_food/big_burger.html" class="list-group-item list-group-item-action">Big Burger
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fast_food.html" class="list-group-item list-group-item-action">Chicken Wings
+                                    <a href="fast_food/wings.html" class="list-group-item list-group-item-action">Chicken Wings
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fast_food.html" class="list-group-item list-group-item-action">Pizza
+                                    <a href="fast_food/pizza.html" class="list-group-item list-group-item-action">Pizza
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fast_food.html" class="list-group-item list-group-item-action">Big Tacos
+                                    <a href="fast_food/tacos.html" class="list-group-item list-group-item-action">Big Tacos
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="fast_food.html" class="list-group-item list-group-item-action">Maxi Hot Dog
+                                    <a href="fast_food/hot_dog.html" class="list-group-item list-group-item-action">Maxi Hot Dog
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
@@ -205,19 +411,19 @@
                         <div class="collapse" id="collapse_grillade">
                             <div class="card card-body">
                                 <div class="list-group">
-                                    <a href="grillade.html" class="list-group-item list-group-item-action">Entrecote De Boeuf
+                                    <a href="grillade/entrecote.html" class="list-group-item list-group-item-action">Entrecote De Boeuf
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="grillade.html" class="list-group-item list-group-item-action">Cote De Boeuf
+                                    <a href="grillade/cote.html" class="list-group-item list-group-item-action">Cote De Boeuf
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="grillade.html" class="list-group-item list-group-item-action">Travers De Porc
+                                    <a href="grillade/traver_porc.html" class="list-group-item list-group-item-action">Travers De Porc
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="grillade.html" class="list-group-item list-group-item-action">Magret De Cannard
+                                    <a href="grillade/magret.html" class="list-group-item list-group-item-action">Magret De Cannard
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="grillade.html" class="list-group-item list-group-item-action">Veau
+                                    <a href="grillade/veau.html" class="list-group-item list-group-item-action">Veau
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
@@ -230,19 +436,19 @@
                         <div class="collapse" id="collapse_pates">
                             <div class="card card-body">
                                 <div class="list-group">
-                                    <a href="pate.html" class="list-group-item list-group-item-action">Bolognaise
+                                    <a href="pate/bolognaise.html" class="list-group-item list-group-item-action">Bolognaise
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="pate.html" class="list-group-item list-group-item-action">Carbonara
+                                    <a href="pate/carbonara.html" class="list-group-item list-group-item-action">Carbonara
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="pate.html" class="list-group-item list-group-item-action">Napolitaine
+                                    <a href="pate/napolitaine.html" class="list-group-item list-group-item-action">Napolitaine
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="pate.html" class="list-group-item list-group-item-action">
+                                    <a href="pate/pesto.html" class="list-group-item list-group-item-action"> Pesto
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
-                                    <a href="pate.html" class="list-group-item list-group-item-action">
+                                    <a href="pate/tomate.html" class="list-group-item list-group-item-action">Tomate
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>

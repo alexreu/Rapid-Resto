@@ -4,6 +4,9 @@
 .active{
     visibility: visible;
 } 
+.blue {
+    color: #1194F7
+}
  /*header toutes les pages  */
  .fruit_mer {
      background-color: rgba(0, 0, 0, 0.438);
@@ -11,11 +14,10 @@
  }
 
 /* home */
-.carousel-inner{
-    height: 50vh;
-} 
+ 
 #article{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 #article .row{
     margin-bottom: 30px;
@@ -36,23 +38,14 @@
 /* home */
 
 /* bottom fixed button */
-#back_top {
-    height: 50px;
-    width: 50px;
-    border: 0;
-    background-color: gray;
-    border-radius: 100%;
-    margin-bottom: 20px;
-}
-#back_top i {
-    color: #fff;
-}
-.menu_button {
+#back_top, #home, #menu{
+    text-transform: uppercase !important;
     background-color: #EFEFF4 !important;
     border: 0 !important;
     color: #3795FC !important;
-    text-transform: uppercase !important;
+    height: 50px;
     width: 120px;
+    border: 0;
     margin-bottom: 20px;
 }
 .btn-primary:focus{
@@ -84,3 +77,11 @@
 .checkout_container {
     padding-bottom: 100px !important;
 }
+.checkout_input {
+    width: 20% !important;
+}
+.contact_img {
+    height: 100% !important;
+    width: 45%;
+}
+/* checkout */
