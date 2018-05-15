@@ -1,0 +1,24 @@
+.hidden{
+    visibility: hidden;
+} 
+.active{
+    visibility: visible;
+}  
+.carousel-inner{
+    height: 30vh;
+} 
+#article{
+    padding-top: 50px;
+}
+#article .row{
+    margin-bottom: 30px;
+    background-color: #EEEEEC;
+    padding: 15px 0 15px 0;
+}   
+.pizza_pepperonie{
+    width: 30% !important;
+    height: auto !important;
+}
+.pizza_content{
+    padding-left: 20px !important;
+} 
